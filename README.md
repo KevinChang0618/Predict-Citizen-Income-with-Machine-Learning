@@ -10,4 +10,4 @@ Build five different models to test our data. We use Logistic Regression, LDA, Q
 5. Classification Tree with confusion matrix get accuracy 84.46% and error rate 15.54%
 
 # Conclusion
-Based on above method results, the adult data analysis fit the Logistic Regression the best with the lowest prediction classification error rate.
+Based on above method results, the adult data analysis fit the Logistic Regression the best with the lowest prediction classification error rate. And we also find that the group of people who have a wife, have a PhD background and work  related to technology such as computer engineering that have the most possible probability to be classified as high income citizens in the US. The analysis result reveals that males have significantly more income than females on average. In other words, this data has a gender gap on income, which was a society issue back to 1996. Besides, older people are more likely to have higher income. 

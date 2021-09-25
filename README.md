@@ -1,5 +1,5 @@
 # Project Goal
-Use different classification models to classify citizen's income with 50k or below 50k. And choose the best model with lowest classification error rate.
+Use different classification models to classify citizen's income with 50k or below 50k. And choose the best model with the lowest classification error rate.
 
 # Methods
 1. Select Variables.  

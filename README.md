@@ -5,7 +5,7 @@ Use different classification models to classify citizen's income with 50k or bel
 1. Select Variables.  
 - Use STEPWISE variable selection to avoid the multicollinearity from our full model. We applied the Forward Stepwise Function from the null model to full, and have a model with the lowest AIC as our selected predictors in the logistic regression, LDA, and KNN models.  
 
-2. Build five different models to test our data. We use Logistic Regression, LDA, QDA, KNN, and Classification Tree to run our data.  
+2. Build five different models to test our data. We try Logistic Regression, LDA, KNN, Classification Tree, and Random Forest to run our data.  
 - Logistic Regression with confusion matrix get accuracy 84.4% and error rate 15.2%. Use 10 Folds Cross-Validation to avoid overfitting.  
 - LDA with confusion matrix get accuracy 83.64% and error rate 16.36%.  Use LOOCV (Leave one out cross-validation, default for LDA in R) to avoid overfitting.
 - KNN with confusion matrix get accuracy 79.67% and error rate 20.33%. Use 10 Folds Cross-Validation to avoid overfitting and use ROC Curve to check model performance. Tune the K value to find best KNN model.  

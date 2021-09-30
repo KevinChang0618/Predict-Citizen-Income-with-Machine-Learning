@@ -1,5 +1,5 @@
 # Project Goal
-Use different classification models to classify citizen's income with 50k or below 50k based on the US Census income dataset from 1994. This dataset was extracted by Barry Becker from the 1994 Census database. What factors influence people’s income is an interesting topic for academic researchers who study about the US personal financial structure or even household financial income. This study may be helpful to other researchers to study further. 
+Use different <b>classification models</b> to classify citizen's income with 50k or below 50k based on the US Census income dataset from 1994. This dataset was extracted by Barry Becker from the 1994 Census database. What factors influence people’s income is an interesting topic for academic researchers who study about the US personal financial structure or even household financial income. This study may be helpful to other researchers to study further. 
 
 # Methods
 1. Select Variables.  

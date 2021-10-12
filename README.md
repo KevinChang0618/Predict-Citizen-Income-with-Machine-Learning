@@ -1,11 +1,14 @@
 # Project Goal
 Use different <b>classification models</b> to classify citizen's income with 50k or below 50k based on the US Census income dataset from 1994. This dataset was extracted by Barry Becker from the 1994 Census database. What factors influence people’s income is an interesting topic for academic researchers who study about the US personal financial structure or even household financial income. This study may be helpful to other researchers to study further. 
 
-# Methods
-1. Select Variables.  
+# Methods.
+1. Data Preprocessing.  
+- Remove observation with missing value. Because those observations only have 7% in the data, they don't have too much impact. However, if we have more missing value such as 30% missing values, I would choose to use mean/ median/ mode to predict them or I can use KNN model to predict them.  
+- Check data distribution and remove outliers because outliers will impact our model severe.
+2. Select Variables.  
 - Use <b>STEPWISE</b> variable selection to avoid the multicollinearity from our full model. We applied the Forward Stepwise Function from the null model to full, and have a model with the lowest AIC as our selected predictors in the logistic regression, LDA, and KNN models.  
 
-2. Build five different models to test our data. We try Logistic Regression, LDA, KNN, Classification Tree, and Random Forest to run our data.  
+3. Build five different models to test our data. We try Logistic Regression, LDA, KNN, Classification Tree, and Random Forest to run our data.  
 - <b>Logistic Regression</b> with confusion matrix get accuracy 84.9% and error rate 15.1%. Use 10 Folds Cross-Validation to avoid overfitting.  
 - <b>LDA</b> with confusion matrix get error rate 15.34%.  Use LOOCV (Leave one out cross-validation, default for LDA in R) to avoid overfitting.
 - <b>KNN</b> with confusion matrix get error rate 17.22%. Use <b>'Scale()' scaling on X variables</b> to enhance model performance and plot ROC Curve to check model performance with tuning the K value to find best KNN model.  
